@@ -5,6 +5,7 @@ import Home from '@/components/Home'
 import Login from '@/components/Login'
 import Find from '@/components/Find'
 import PersonCenter from '@/components/PersonCenter'
+import Menu from '@/components/Menu'
 
 Vue.use(Router)
 
@@ -26,5 +27,8 @@ export default new Router({
       path: 'person-center',
       component: PersonCenter
     }]
+  }, {
+    path: '/menu',
+    component: Menu
   }]
 })
